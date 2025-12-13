@@ -11,7 +11,19 @@
 [![Vite](https://img.shields.io/badge/Vite-646cff?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Proprietary](https://img.shields.io/badge/License-Proprietary-red)](LICENSE)
 
-![Dashboard](assets/admin-dashboard-analytics.png)
+## 📸 Product Screenshots
+
+### Client Check-In Flow
+<img src="assets/client-landing.png" width="800" />
+<img src="assets/client-mobilecheckin.png" width="400" />
+
+### Admin Dashboard
+<img src="assets/admin-login.png" width="800" />
+<img src="assets/admin-dailyoperations.png" width="800" />
+<img src="assets/admin-recent-check-ins.png" width="800" />
+<img src="assets/admin-csv-upload.png" width="800" />
+<img src="assets/admin-supportpage.png" width="800" />
+
 
 ## Structure
 
